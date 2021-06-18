@@ -4,15 +4,12 @@
 body {
     max-width: 800px;
     margin: 0 auto;
-
 }
 header{
-    
     display: flex;
     justify-content: space-between;
     align-items:center; 
     height: 80px;
-border-image: url('/media/examples/border-diamonds.png') 30 / 19px round;
 }
 .headerLine {
     display: block;
@@ -29,7 +26,6 @@ border-image: url('/media/examples/border-diamonds.png') 30 / 19px round;
 .lgooleft img {
     float:left; 
 }
-
 .logo-text  {
    margin-left: 4px;
    float: right;
@@ -41,35 +37,28 @@ border-image: url('/media/examples/border-diamonds.png') 30 / 19px round;
     font-size :2rem;
     font-weight: 800;
     margin-bottom: 2px;
- }
- .logo-text  p {
+}
+.logo-text  p {
     font-family: Arial, Helvetica, sans-serif;
     font-size :7px;
     color:gray
- }
-
- .social-icons span:first-child {
-     margin-right: 8px;
-     
- }
- .social-icons span:first-child a {
-   margin: -1px;
-    
+}
+.social-icons span:first-child {
+    margin-right: 8px;   
+}
+.social-icons span:first-child a {
+   margin: -1px;  
 }
 .social-icons span:nth-child(2) a {
-    margin: -1px;
-     
- }
- main article{
-    margin-top: 30px;
-    
+    margin: -1px;    
 }
-
-main article:nth-child(1){
+main article{
+    margin-top: 30px;  
+}
+main article:nth-child(1) {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
 }
 main article:nth-child(1) a{
 text-decoration: none;
@@ -80,15 +69,14 @@ color:gray;
 }
 main article:nth-child(1) img{
    padding-right: 4px;
-    }
+}
  main article:nth-child(1) h2 {
-  
     font-size:36px ;
-     font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 900;
- }
- main article:nth-child(1) p {
-     padding-top: 5PX ;
+}
+main article:nth-child(1) p {
+    padding-top: 5PX ;
     font-family: Arial, Helvetica, sans-serif;
     font-size:8px ;
     color:gray;
@@ -96,9 +84,8 @@ main article:nth-child(1) img{
 main article:nth-child(2) img {
     width: 100%;
 }
-
 main article:nth-child(3) p {
-     margin-top: 15px;
+    margin-top: 15px;
     text-indent: 30px;
     color:gray;
     line-height: 1.5;
@@ -108,55 +95,48 @@ main article:nth-child(3) p {
     height: 300px;
 }
 main article:nth-child(4){
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 .float-right li:nth-child(2),.float-right li:nth-child(3) {
-        text-decoration: line-through;
+    text-decoration: line-through;
 } 
 .float-right  input{
-        cursor: pointer;
-        border: none;
+    cursor: pointer;
+    border: none;
 }
 .float-right input:checked {
-        color: #6F684C;
-        background-color: transparent;
-        border: none;
+    color: #6F684C;
+    background-color: transparent;
+    border: none;
 }
 article ul {
-        line-height: 2;
-        margin-top: 35px;
-        font-family: 'Pangolin', cursive;
-        color: #6F684C;
-        width: 300px;
-}      
-.BottomLine {
-        display: block;
-        background-image: url("../assets/hr-img.png");
-        background-repeat: repeat;
-        background-position: center bottom;
-        margin-top: 30px;
+    line-height: 2;
+    margin-top: 35px;
+    font-family: 'Pangolin', cursive;
+    color: #6F684C;
+    width: 300px;
 }
 .share-recipe  {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }
 .share-recipe .float-left {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 600px;
-        margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin-right: 30px;
 }
 .float-left img {
-        margin-right: 10px;
-        width: 50px;
+    margin-right: 10px;
+    width: 50px;
 }
 section div {
-        padding: 10px;
+    padding: 10px;
 }
 section div p:first-child {
     padding-bottom: 10px;
@@ -191,9 +171,19 @@ footer {
     font-size: 12px;
     margin-top: 15px;
     margin-bottom: 15px;
+    position: relative;
+}
+footer::before {
+    content: "";
+    position: absolute;
+    top: -80%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #ddd;
 }
 footer img {
     display: block;
     z-index: 1;
-     margin-bottom: 7px;
+    margin-bottom: 7px;
 }
