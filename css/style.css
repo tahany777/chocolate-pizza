@@ -94,6 +94,9 @@ main article:nth-child(3) p {
     background-image: url('../assets/list-bg.png') ;
     height: 300px;
 }
+.recipe ul li input {
+    cursor: pointer;
+}
 main article:nth-child(4){
     display: flex;
     justify-content: space-around;
